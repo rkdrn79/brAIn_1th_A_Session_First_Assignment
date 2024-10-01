@@ -4,7 +4,7 @@ import pandas as pd
 from sklearn.preprocessing import LabelEncoder
 from sklearn.metrics import f1_score, accuracy_score, confusion_matrix
 
-from src.naivebayes_result import NaiveBayesClassifier
+from src.naivebayes import NaiveBayesClassifier
 
 # 데이터 생성
 train = pd.read_csv("data/train.csv")
