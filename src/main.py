@@ -1,6 +1,12 @@
 import numpy as np
 import pandas as pd
 
+# to debug
+import os
+import sys
+sys.path.append(os.path.dirname(os.path.abspath(os.path.dirname(__file__))))
+
+
 from sklearn.preprocessing import LabelEncoder
 from sklearn.metrics import f1_score, accuracy_score, confusion_matrix
 
